@@ -1,0 +1,69 @@
+/* Register Page CSS */
+.registerPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.registerPage form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 15px;
+    font-size: 15px;
+}
+.register-form input{
+    width: 100%;
+    font-size: 13px;
+    padding: 2px;
+    border-radius: 5px;
+}
+.register-form h2{
+  padding-bottom: 2px;
+  font-size: 25px;
+  width: 100%;
+  font-weight: 500;
+  text-align: justify;
+}
+.register-form label{
+    font-size: 13px;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 20px;
+    text-align: justify;
+}
+.register-form button{
+    margin-top: 30px;
+    font-weight: 400;
+    background-image: linear-gradient(to right,#fff99f ,#f0c14b);
+    width: 100%;
+    padding: 3px 120px;
+    border-radius: 7px;
+}
+.register-link{
+    font-size: 14px;
+    padding-top: 10px;
+}
+.login-line{
+    width: 100%;
+    padding-top: 30px;
+    color:#808080;
+    text-align: center;
+    font-size: 14px;
+}
+.login-form input{
+padding: 2px;
+}
+.login-form .login-nav-button{
+    width: 100%;
+    margin-top: -20px;
+}
+ .login-nav-button button {
+    background-image:linear-gradient(to right,#d4d8db,#d4d8db) ;
+    padding: 3px 20px;
+}
