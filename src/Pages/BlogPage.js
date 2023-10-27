@@ -17,7 +17,7 @@ try{
   }
   useEffect(()=>{
  getAllBlogs()
-  },[getAllBlogs])
+  },[])
   return (
     <>
     {blogs && blogs.map((blog)=>(<BlogCard 
